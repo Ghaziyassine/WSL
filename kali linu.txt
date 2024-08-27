@@ -1,0 +1,20 @@
+
+wsl --list --online
+wsl --list --verbose        //vm running  
+wsl --shudown              //shutdown every thing
+wsl --teminate ubuntu          //close just ubuntu          
+
+wsl --install kali-linux	
+wsl --unregister kali-linux      //uninstall
+
+
+
+kali-tweaks
+wsl -d ubuntu
+
+
+
+sudo apt install kali-win-kex -y
+kex                                                        //open kali Gui
+F8
+kex --win --stop
