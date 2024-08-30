@@ -10,7 +10,7 @@ wsl --unregister kali-linux      //uninstall
 
 
 kali-tweaks
-wsl -d ubuntu
+wsl -d ubuntu                    //open ubuntu
 
 
 
