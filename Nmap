@@ -1,0 +1,15 @@
+nmap -sV  10.10.83.201                          //Attempts to determine the version of the services running
+
+nmap -p-400 10.10.83.201                        //scan to only the first 400 ports (ports 1 to 400)   
+
+nmap  -v 10.10.83.201                          //Verbose mode
+
+nmap -sS 10.10.83.201                         // TCP SYN port scan    
+
+nmap -sU 10.10.83.201                         // UDP port scan      
+
+nmap -A 10.10.83.201                         // Detecting service versions/
+                                                Identifying vulnerabilities/Performing basic system discovery (e.g., OS detection, SMB information gathering)/
+                                                Checking for common misconfigurations or weak security settings
+
+nmap -Pn 10.10.83.201                         // Disable host discovery and scan for open ports
