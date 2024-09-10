@@ -13,3 +13,7 @@ nmap -A 10.10.83.201                         // Detecting service versions/
                                                 Checking for common misconfigurations or weak security settings
 
 nmap -Pn 10.10.83.201                         // Disable host discovery and scan for open ports
+
+
+
+nmap  10.10.235.219 --script smb-vuln-ms17-010.nse              //What is this machine vulnerable to
