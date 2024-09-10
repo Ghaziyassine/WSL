@@ -2,8 +2,8 @@ msfconsole          //run the framework
 
 search ms17-010        // search the vulnurabilities
 
-use0                    //exploit the vulnutrabilitie 0
-option                  //listing the configurable (RHOSTS ,RPORT.....)
+use 0                    //exploit the vulnutrabilitie 0
+options                  //listing the configurable (RHOSTS ,RPORT.....)
 
 
 
